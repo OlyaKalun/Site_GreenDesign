@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  width: 74%;
+  margin: auto; }
+
+/*========================
+        HEADER BLOCK
+   ======================*/
+.bg-header {
+  background-color: #151515; }
+
+.header-content {
+  width: 74%; }
+  .header-content .col-auto {
+    display: inline-flex;
+    align-items: center; }
+  .header-content .slesh {
+    color: #49aa07;
+    display: inline-flex;
+    align-items: center; }
+
+.menu-item {
+  color: #ffffff;
+  font-size: 1rem; }
+
+/*========================
+        MAIN BLOCK
+   ======================*/
+.bg-main {
+  background: url(../img/main.png) center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px; }
+
+.main-content h5 {
+  font-size: 3rem;
+  font-weight: 500; }
+
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1; }
+
+.btn-success {
+  color: #fff;
+  background-color: #49aa07;
+  border-color: #49aa07;
+  font-weight: 500;
+  font-size: 1.3rem; }
+
+/*========================
+        SERVICES BLOCK
+   ======================*/
+.bg-services .container {
+  width: 74%;
+  margin: auto;
+  padding: 3rem 0rem; }
+  .bg-services .container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .bg-services .container .row:nth-child(5) {
+      align-items: flex-start; }
+  .bg-services .container h5 {
+    font-size: 2rem;
+    text-align: center; }
+  .bg-services .container .p-serv {
+    padding: 0rem 1.5rem;
+    font-size: 1rem;
+    text-align: center; }
+  .bg-services .container .img-serv {
+    width: 100%;
+    box-shadow: 0 4px 4px -6px black; }
+  .bg-services .container .line {
+    height: 1px;
+    background: #999999;
+    display: block;
+    margin: auto; }
+  .bg-services .container .circ-icon {
+    background-color: #e6e6e6;
+    display: inline-flex;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; }
+  .bg-services .container a {
+    text-decoration: none;
+    color: #999999; }
+  .bg-services .container iframe {
+    min-height: 15rem; }
+  .bg-services .container .social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem; }
+
+@media (max-width: 768px) {
+  .bg-services .container .social {
+    height: 7.5rem;
+    margin-bottom: 0.8rem; } }

@@ -1,0 +1,61 @@
+/*========================
+        SERVICES BLOCK
+   ======================*/
+
+.bg-services {
+  .container {
+    width: 74%;
+    margin: auto;
+    padding: 3rem 0rem;
+    .row {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      &:nth-child(5) {
+        align-items: flex-start;
+      }
+    }
+    h5 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    .p-serv {
+      padding: 0rem 1.5rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .img-serv {
+      width: 100%;
+      box-shadow: 0 4px 4px -6px rgb(0, 0, 0);
+    }
+    .line {
+      // border-top:px solid black;
+      height: 1px;
+      background: #999999;
+      display: block;
+      margin: auto;
+    }
+    .circ-icon {
+      background-color: #e6e6e6;
+      display: inline-flex;
+      width: 2rem;
+      height: 2rem;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+    }
+    a {
+      text-decoration: none;
+      color: #999999;
+    }
+    iframe {
+      min-height: 15rem;
+    }
+    .social {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 15rem;
+    }
+  }
+}

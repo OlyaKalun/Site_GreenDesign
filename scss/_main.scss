@@ -1,0 +1,29 @@
+/*========================
+        MAIN BLOCK
+   ======================*/
+
+.bg-main {
+  background: url(../img/main.png) center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+}
+
+.main-content {
+  h5 {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+  p {
+    font-size: 1.1rem;
+    line-height: 1;
+  }
+}
+
+.btn-success {
+  color: #fff;
+  background-color: $color_green;
+  border-color: $color_green;
+  font-weight: 500;
+  font-size: 1.3rem;
+}

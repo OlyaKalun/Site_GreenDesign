@@ -1,0 +1,13 @@
+@import "./global";
+@import "./header";
+@import "./main";
+@import "./services";
+
+// Media Queries
+
+@media (max-width: 768px) {
+  .bg-services .container .social {
+    height: 7.5rem;
+    margin-bottom: 0.8rem;
+  }
+}

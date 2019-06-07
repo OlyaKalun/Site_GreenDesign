@@ -1,0 +1,25 @@
+/*========================
+        HEADER BLOCK
+   ======================*/
+
+.bg-header {
+  background-color: $bg_header;
+}
+
+.header-content {
+  width: 74%;
+  .col-auto {
+    display: inline-flex;
+    align-items: center;
+  }
+  .slesh {
+    color: $color_green;
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+.menu-item {
+  color: $white;
+  font-size: 1rem;
+}
